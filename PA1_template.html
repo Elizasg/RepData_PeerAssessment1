@@ -84,12 +84,20 @@ img {
 </div>
 <div id="assignment" class="section level1">
 <h1>Assignment</h1>
-<p>We are going to manipulate the data in order to answer some questions and fullfil some requirements. <br /> ### Loading and preprocessing the data ##### <strong>1. Load the data</strong> We will set echo=TRUE as a global option so that the R code is shown.</p>
+<p>We are going to manipulate the data in order to answer some questions and fullfil some requirements.</p>
+<p><br /></p>
+<div id="loading-and-preprocessing-the-data" class="section level3">
+<h3>Loading and preprocessing the data</h3>
+<div id="load-the-data" class="section level5">
+<h5><strong>1. Load the data</strong></h5>
+<p>We will set echo=TRUE as a global option so that the R code is always shown.</p>
 <pre class="r"><code>data &lt;- read.csv(&quot;activity.csv&quot;, colClasses = c(&quot;numeric&quot;, &quot;Date&quot;, &quot;numeric&quot;))</code></pre>
+</div>
 <div id="processtransform-the-data-if-necessary-into-a-format-suitable-for-your-analysis" class="section level5">
 <h5><strong>2. Process/transform the data (if necessary) into a format suitable for your analysis</strong></h5>
 <pre class="r"><code>library(plyr); library(dplyr)</code></pre>
 <p><br /></p>
+</div>
 </div>
 <div id="what-is-mean-total-number-of-steps-taken-per-day" class="section level3">
 <h3>What is mean total number of steps taken per day?</h3>
